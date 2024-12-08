@@ -1,0 +1,3 @@
+# Kotlin: Incorrect Usage of removeIf on Immutable Collections
+
+This repository demonstrates a common error in Kotlin when using the `removeIf` function with immutable collections. The `removeIf` function is designed for modifying mutable collections in place, and applying it to immutable collections will result in a compile-time error. The example shows how `removeIf` works correctly on mutable lists, sets, and maps and illustrates the error that arises when trying to use it with immutable versions.
